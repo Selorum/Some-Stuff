@@ -1,9 +1,13 @@
 LernQuiz
 
+!Attention the for now there only exists the german version! 
+!englisch will follow soon!
+
 Created by Selorum 
 
 This project is a simple quiz application written in Python.
 It uses Tkinter for the graphical user interface (GUI) and TOML files to store questions.
+
 
 The quiz allows users to:
 
