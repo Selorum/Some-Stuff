@@ -3,6 +3,7 @@ LernQuiz
 !Attention the for now there only exists the german version! 
 !englisch will follow soon!
 
+I used a realpython guide for most of the backend
 Created by Selorum 
 
 This project is a simple quiz application written in Python.
