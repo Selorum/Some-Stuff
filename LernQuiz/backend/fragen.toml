@@ -1,0 +1,386 @@
+[python]
+label = "Python"
+
+[[python.questions]]
+question = "How can you add a docstring to a function"
+answer = "By writing a string literal as the first statement in the function"
+alternatives = [
+    "By using the built-in @docstring decorator",
+    "By returning a string from the function",
+]
+hint = "They're parsed from your code and stored on the function object."
+explanation = """
+    Docstrings document functions and other Python objects. A docstring is a
+    string literal that occurs as the first statement in a module, function,
+    class, or method definition. Such a docstring becomes the .__doc__ special
+    attribute of that object. See PEP 257 for more information.
+"""
+
+[[python.questions]]
+question = "When was the first public version of Python released?"
+answer = "February 1991"
+alternatives = ["January 1994", "October 2000", "December 2008"]
+hint = "The first public version was labeled version 0.9.0."
+explanation = """
+    Guido van Rossum posted Python v0.9.0 to the alt.sources newsgroup in February 1991.
+"""
+
+[[python.questions]]
+question = "Which keyword is used to define a function in Python?"
+answer = "def"
+alternatives = ["fun", "function", "define"]
+hint = "Functions are reusable blocks of code."
+explanation = """
+    Functions in Python are defined using the 'def' keyword followed by the function name.
+"""
+
+[[python.questions]]
+question = "How do you output text to the console in Python?"
+answer = "print()"
+alternatives = ["echo()", "output()", "display()"]
+hint = "It's a built-in function."
+explanation = """
+    The 'print()' function outputs text or other data to the console.
+"""
+
+[[python.questions]]
+question = "Which data type is used for True or False values?"
+answer = "bool"
+alternatives = ["int", "logic", "binary"]
+hint = "Boolean values are either True or False."
+explanation = """
+    Boolean values (True or False) are represented by the 'bool' type in Python.
+"""
+
+[[python.questions]]
+question = "Which Python collection is ordered and changeable?"
+answer = "list"
+alternatives = ["set", "tuple", "dict"]
+hint = "It can store multiple values in a sequence."
+explanation = """
+    Lists in Python are ordered collections that can be modified (mutable).
+"""
+
+[[python.questions]]
+question = "What symbol is used to start a comment in Python?"
+answer = "#"
+alternatives = ["//", "<!--", "--"]
+hint = "Comments are ignored by Python."
+explanation = """
+    Comments in Python start with the '#' character and are ignored during execution.
+"""
+
+[java]
+label = "Java"
+
+[[java.questions]]
+question = "Which keyword is used to define a class in Java?"
+answer = "class"
+alternatives = ["object", "struct", "define"]
+hint = "Classes are templates for objects in Java."
+explanation = """
+    In Java, classes are defined using the 'class' keyword followed by the class name.
+"""
+
+[[java.questions]]
+question = "Which keyword is used to create a method in Java?"
+answer = "void"
+alternatives = ["function", "def", "method"]
+hint = "Methods can return a value or be void."
+explanation = """
+    In Java, methods are declared inside classes. The 'void' keyword is used for methods that do not return a value.
+"""
+
+[[java.questions]]
+question = "Which keyword is used for inheritance in Java?"
+answer = "extends"
+alternatives = ["implements", "inherits", "derives"]
+hint = "Java supports single inheritance for classes."
+explanation = """
+    The 'extends' keyword is used to indicate that a class inherits from another class.
+"""
+
+[[java.questions]]
+question = "Which keyword is used to create an object in Java?"
+answer = "new"
+alternatives = ["create", "instance", "construct"]
+hint = "Objects are instances of classes."
+explanation = """
+    In Java, the 'new' keyword is used to create new instances of a class.
+"""
+
+[[java.questions]]
+question = "Which operator is used for equality comparison in Java?"
+answer = "=="
+alternatives = ["=", "===", "!="]
+hint = "Do not confuse assignment and comparison."
+explanation = """
+    The '==' operator checks whether two primitive values are equal. For objects, use the .equals() method.
+"""
+
+[[java.questions]]
+question = "Which keyword is used to implement an interface in Java?"
+answer = "implements"
+alternatives = ["extends", "inherits", "interface"]
+hint = "Interfaces define methods that must be implemented."
+explanation = """
+    The 'implements' keyword is used when a class provides the implementation of an interface.
+"""
+
+[[java.questions]]
+question = "Which keyword prevents a class from being subclassed?"
+answer = "final"
+alternatives = ["static", "sealed", "private"]
+hint = "It can also prevent methods from being overridden."
+explanation = """
+    The 'final' keyword is used to prevent a class from being subclassed and methods from being overridden.
+"""
+
+[english]
+label = "English Literary Text Tasks"
+
+[[english.questions]]
+question = "Summarize the main events of the text."
+answer = "Provide a clear and concise summary of the text's key events."
+alternatives = [
+    "List random details without sequence",
+    "Focus only on minor events",
+    "Include personal opinions only"
+]
+hint = "Focus on the sequence and importance of events."
+explanation = """This task tests comprehension. Summarizing requires identifying the main events and presenting them clearly in your own words."""
+
+[[english.questions]]
+question = "Describe the thoughts, feelings, and actions of the main character(s)."
+answer = "Provide detailed descriptions of the characters' internal and external behaviors."
+alternatives = [
+    "Only describe their physical appearance",
+    "Ignore what characters think or feel",
+    "List unrelated events"
+]
+hint = "Consider both what characters do and what they feel or think."
+explanation = """This requires understanding character development and interpreting both explicit and implied behaviors."""
+
+[[english.questions]]
+question = "Identify the perspectives of different characters and explain how they perceive key events."
+answer = "Compare the viewpoints of multiple characters and explain differences in perception."
+alternatives = [
+    "Focus on only one character",
+    "Describe events without considering perspective",
+    "Provide generic statements unrelated to characters"
+]
+hint = "Pay attention to differing opinions, feelings, or reactions."
+explanation = """Understanding perspective helps analyze how the author presents events and relationships."""
+
+[[english.questions]]
+question = "Outline the sequence of important scenes or incidents."
+answer = "Present the main events in the order they occur in the text."
+alternatives = [
+    "List events randomly",
+    "Focus only on the ending",
+    "Include minor irrelevant details only"
+]
+hint = "Chronological order is important."
+explanation = """Organizing events sequentially demonstrates comprehension and helps understand plot structure."""
+
+[[english.questions]]
+question = "Analyze the main character(s): consider appearance, behavior, emotions, and social background."
+answer = "Provide a detailed analysis of the character including personality, actions, and context."
+alternatives = [
+    "Only describe clothing or looks",
+    "Ignore behavior or emotions",
+    "Focus on minor or irrelevant traits"
+]
+hint = "Think about how the character’s background influences their actions."
+explanation = """Character analysis shows deeper understanding of motivations, conflicts, and social context."""
+
+[[english.questions]]
+question = "Examine how the author develops characters through direct and indirect characterization."
+answer = "Explain both what the text explicitly says about characters and what can be inferred from their actions or dialogue."
+alternatives = [
+    "Only quote the text without interpretation",
+    "Ignore indirect characterization",
+    "Focus on unrelated parts of the text"
+]
+hint = "Consider dialogue, actions, and descriptions as clues to character."
+explanation = """Direct characterization is explicit, while indirect characterization requires interpretation of behavior and language."""
+
+[[english.questions]]
+question = "Discuss how language, style, and narrative techniques reveal personality, emotions, and relationships."
+answer = "Analyze word choice, tone, and narrative perspective to explain character and relationships."
+alternatives = [
+    "Focus only on plot events",
+    "Ignore the author's style",
+    "Describe scenes without reference to language"
+]
+hint = "Look at how the author conveys meaning beyond just the story."
+explanation = """Language and style give insight into character traits and relationships beyond the literal plot."""
+
+[[english.questions]]
+question = "Compare different characters’ perspectives and highlight differences in their viewpoints or reactions."
+answer = "Identify contrasting opinions, feelings, or responses among characters and explain their significance."
+alternatives = [
+    "Only describe one character",
+    "Ignore differing viewpoints",
+    "Focus on irrelevant events"
+]
+hint = "Differences in perspective can reveal conflict and theme."
+explanation = """Comparing perspectives deepens understanding of relationships, conflicts, and narrative complexity."""
+
+[[english.questions]]
+question = "Reflect on themes, conflicts, or social issues presented in the text."
+answer = "Identify major themes and conflicts and explain their significance or message."
+alternatives = [
+    "Only summarize events without interpretation",
+    "Focus on minor irrelevant details",
+    "Ignore social or thematic elements"
+]
+hint = "Consider moral, social, or universal issues in the text."
+explanation = """Analyzing themes and conflicts shows comprehension and critical thinking about the text's meaning."""
+
+[[english.questions]]
+question = "Write a diary entry or letter from the perspective of a character in the text, focusing on thoughts and emotions."
+answer = "Produce a diary entry or letter that accurately reflects the character’s personality and feelings."
+alternatives = [
+    "Write as yourself",
+    "Ignore the character's emotions",
+    "Retell the plot only"
+]
+hint = "Use first-person perspective and emotional insight."
+explanation = """Creative writing tasks test understanding of character and ability to write in voice."""
+
+[[english.questions]]
+question = "Rewrite a scene from an alternative perspective, showing how the events might appear to another character."
+answer = "Retell a scene from a different character’s viewpoint, capturing their reactions and thoughts."
+alternatives = [
+    "Retell the original scene without change",
+    "Write from an unrelated character",
+    "Focus only on description without perspective"
+]
+hint = "Focus on how perception changes interpretation."
+explanation = """This encourages analyzing point of view and narrative interpretation."""
+
+[[english.questions]]
+question = "Compose an alternative ending or continuation of the story. Include your interpretation of the characters’ actions and feelings."
+answer = "Write a plausible ending or continuation that fits the characters and story context."
+alternatives = [
+    "Ignore character behavior",
+    "Make an unrelated story",
+    "Only summarize the original ending"
+]
+hint = "Maintain consistency with character traits and plot."
+explanation = """Shows creative application and understanding of plot and character development."""
+
+[[english.questions]]
+question = "Create a short dialogue, monologue, or narrative inspired by the events in the text, maintaining the style and tone of the original."
+answer = "Produce a piece that mirrors the author’s style and tone while showing comprehension and creativity."
+alternatives = [
+    "Write unrelated text",
+    "Ignore style and tone",
+    "Only copy the original text"
+]
+hint = "Keep the voice and style similar to the original text."
+explanation = """This task combines creative writing skills with textual analysis and style awareness."""
+
+[checklist]
+label = "checklist"
+
+[[checklist.questions]]
+question = "What is the focus of the 'Name & Basic Info' point in a characterization?"
+answer = "Basic identifying information about the character"
+alternatives = ["Detailed plot summary", "Description of the setting"]
+hint = "It describes who the character is."
+explanation = """
+The 'Name & Basic Info' section highlights essential introductory details such as age,
+background, and role in the story.
+"""
+
+[[checklist.questions]]
+question = "What does the 'Appearance' category describe?"
+answer = "Physical traits and distinguishing features"
+alternatives = ["Character motivations", "Plot structure of the story"]
+hint = "It concerns visual aspects."
+
+[[checklist.questions]]
+question = "What does the 'Personality' section focus on?"
+answer = "Traits, strengths, weaknesses, behaviour"
+alternatives = ["Scene setting", "Grammar and style guidelines"]
+explanation = """
+Personality helps define how a character typically behaves, including their strengths,
+weaknesses, and overall temperament.
+"""
+
+[[checklist.questions]]
+question = "What does the 'Motivations' point address?"
+answer = "The character's goals, fears, and needs"
+alternatives = ["Physical appearance", "Narrative point of view"]
+
+[[checklist.questions]]
+question = "What is described under 'Relationships'?"
+answer = "How the character interacts with others"
+alternatives = ["How to write metaphors", "The emotional tone of a scene"]
+
+[[checklist.questions]]
+question = "What does 'Internal Conflicts' refer to?"
+answer = "Emotional struggles and dilemmas"
+alternatives = ["Dialogue formatting rules", "Scene transitions"]
+
+[[checklist.questions]]
+question = "What does the 'Development' section ask for?"
+answer = "How the character changes over time"
+alternatives = ["Where the story takes place", "The correct use of metaphors"]
+
+[[checklist.questions]]
+question = "What does 'Voice & Dialogue' focus on?"
+answer = "How the character speaks, including tone and vocabulary"
+alternatives = ["Plot resolution", "Spelling accuracy"]
+
+[[checklist.questions]]
+question = "What does 'Clear Task Understanding' in creative writing involve?"
+answer = "Knowing the writer, text type, and purpose"
+alternatives = ["Choosing metaphors", "Designing character clothing"]
+
+[[checklist.questions]]
+question = "What does the 'Setting' describe?"
+answer = "When and where the scene takes place"
+alternatives = ["Character strengths", "Narrative perspective"]
+
+[[checklist.questions]]
+question = "What does 'Plot Structure' outline?"
+answer = "Beginning, conflict, climax, resolution"
+alternatives = ["Grammar rules", "Character appearance"]
+
+[[checklist.questions]]
+question = "What does 'Point of View' determine?"
+answer = "The narrative perspective"
+alternatives = ["The story's theme", "The character’s goals"]
+
+[[checklist.questions]]
+question = "What does 'Atmosphere & Tone' relate to?"
+answer = "The mood and emotional impact of the scene"
+alternatives = ["Character backstory", "Story chronology"]
+
+[[checklist.questions]]
+question = "What does 'Show, Don’t Tell' encourage?"
+answer = "Using sensory details, actions, and dialogue"
+alternatives = ["Summarizing events directly", "Focusing only on plot twists"]
+
+[[checklist.questions]]
+question = "What does 'Language & Style' emphasize?"
+answer = "Varied vocabulary and expressive, accurate writing"
+alternatives = ["Only using simple words", "Ignoring narrative tone"]
+
+[[checklist.questions]]
+question = "What does 'Cohesion & Flow' focus on?"
+answer = "Logical order and smooth transitions"
+alternatives = ["Character costumes", "Dialogue speed"]
+
+[[checklist.questions]]
+question = "What does 'Creative Elements' refer to?"
+answer = "Original ideas, imagery, and vivid descriptions"
+alternatives = ["Strict factual writing", "Removing descriptive language"]
+
+[[checklist.questions]]
+question = "What does the 'Final Check' ensure?"
+answer = "Correct spelling, punctuation, clarity, and task fulfilment"
+alternatives = ["The story contains a twist", "All characters survive"]
