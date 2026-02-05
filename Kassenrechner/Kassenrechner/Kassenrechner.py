@@ -44,4 +44,5 @@ with open("kassenstandspeicher.txt", "w") as file: # Speichern des gesamten abla
         file.write(entry + "\n")
 
 # speichern als ods datei für bessere lesbarkeit
-## export_logs_to_ods("kassenstandspeicher.txt")
+
+ export_logs_to_ods("kassenstandspeicher.txt")
